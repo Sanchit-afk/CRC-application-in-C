@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 void main(){
 int in[50],in1[50],div[10],i,n,d,temp,j,r[10],q[50],r1[10];
