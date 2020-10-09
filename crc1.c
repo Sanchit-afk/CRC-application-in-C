@@ -53,8 +53,18 @@ printf("Enter the divisor");
             
             
     }
+    
+            if (q[n-1]==0)                                  /*in case the last quotient is 0*/
+    {
+        for ( i = 0; i < d; i++)
+        {
+            r[i]=r[i+1];
+        }
+        r[d-1]=0;
+        
+    }
 
-    /*copy the input*/
+    /*appending the crc bits*/
      j=1;
         
         for ( i = n; i < n+d-1; i++)
